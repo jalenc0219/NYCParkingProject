@@ -6,8 +6,7 @@ It explores violation types, vehicle demographics, state and county distribution
 ## Dataset 
 - Source: [Kaggle NYC Parking Violations](https://www.kaggle.com/datasets/davinascimento/nyc-parking-violations-issued)
 - Size: ~1.6 GB CSV
-- Note: The file is not included in the repository.
-
+  
 ## Features / Analysis
 ### Top 5 Violation Types
    <img width="1000" height="600" alt="image" src="https://github.com/user-attachments/assets/94c9728d-507c-47cc-902e-fa5745dc9e29" />
