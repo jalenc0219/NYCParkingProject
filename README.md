@@ -12,7 +12,7 @@ It explores violation types, vehicle demographics, state and county distribution
    <img width="1000" height="600" alt="image" src="https://github.com/user-attachments/assets/94c9728d-507c-47cc-902e-fa5745dc9e29" />
    This bar chart shows the 5 most common parking violations in NYC.
    Violation code 21 (No Parking - Street Cleaning) is the most common infraction type.
-   Understaning these trends can help city planners target enforcement and educational campaigns. 
+   Understanding these trends can help city planners target enforcement and educational campaigns. 
 
 ### Top 5 Violations by Total Revenue 
   <img width="1000" height="600" alt="image" src="https://github.com/user-attachments/assets/d7080bbf-f734-4370-a7a4-4dc8aaf4b088" />
