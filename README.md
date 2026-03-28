@@ -6,6 +6,24 @@ It explores violation types, vehicle demographics, state and county distribution
 ## Dataset 
 - Source: [Kaggle NYC Parking Violations](https://www.kaggle.com/datasets/davinascimento/nyc-parking-violations-issued)
 - Size: ~1.6 GB CSV
+
+## Data Preprocessing
+1) Loading the dataset
+  - Since this is a large dataset, using pandas to load the CSV was important, due to the robust CSV import settings to handle the dataset efficiently and prevent malformed rows from interrupting the analysis.
+2) Handling Missing / Invalid Values
+  - Removed or filtered rows with missing values in key fields such as vehicle year, registration state, and violation county.
+  - Excluded placeholder or invalid state values to improve analysis accuracy
+  - Excluded invalid rows with dates such as 2030
+3) Standardized Inconsistent Values
+  - Standardized vehicle color values to reduce duplicates caused by inconsistent abbreviations
+  - Cleaned text fields by converting to consistent casing and trimming whitespace.
+4) Filtering and Data Aggregation
+  - Filtered subsets of data for targeted analysis, such as excluding NY and NJ for out of state comparisons.
+  - Created derived metrics such as:
+    - Total revenue by violation type
+    - Vehicle year grouped into decades
+    - County level violation percentages
+
   
 ## Features / Analysis
 ### Top 5 Violation Types
@@ -38,7 +56,6 @@ It explores violation types, vehicle demographics, state and county distribution
   This bar chart displays parking tickets across NYC boroughs: Manhattan/New York County, The Bronx, Kings County, Queens, and Staten Island/Richmond County.
   Manhattan and Brooklyn received the highest number of violations, consistent with their population density and traffic volume. 
   This analysis helps identify boroughs with the most enforcement activity. 
-
 
 ## Notes
 - Dataset is large (~1.6 GB). Processing may take several minutes.
